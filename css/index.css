@@ -138,6 +138,7 @@ table {
 html {
   font-size: 62.5%;
   background-color: #2660A4;
+  scroll-behavior: smooth;
 }
 html,
 body {
@@ -228,6 +229,9 @@ img {
   align-items: center;
   margin: 15px;
   text-decoration: none;
+}
+.line {
+  border-bottom: 1px solid #FEFFFE;
 }
 .content-box {
   border-radius: 25px;
