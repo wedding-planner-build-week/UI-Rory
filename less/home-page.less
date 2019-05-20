@@ -23,12 +23,54 @@
     margin: 15px;
     text-decoration: none;
 
+    &:hover {
+      background: @white-smoke;
+      color: @rosewood;
+    }
+
   }
 
   .line {
     border-bottom: 1px solid @white;;
   }
 
+  // Tabs
+
+  .tabs-links {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.5rem;
+    background-color: @white-smoke;
+    border-radius: 25px;
+    margin: 10px 0;
+  }
+  
+  .tabs-link {
+  
+  }
+
+  .tabs-link-selected {
+    background: @rosewood;
+    color: @white-smoke;
+    border-radius: 25px;
+  }
+  
+  .tabs-item {
+    // border: 1px solid red;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: @white-smoke;
+    line-height: 1.5;
+    font-size: 1.6rem;
+
+    .tabs-item-title {
+      font-size: 2.5rem;
+    }
+    
+  }
+
+  // End Tabs
 
   .content-box {
     // border: 1px solid red;
