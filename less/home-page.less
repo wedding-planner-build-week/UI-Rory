@@ -1,11 +1,11 @@
   #top-header {
-    color: @white-smoke;
+    color: @ivory;
     text-align: center;
     margin: 10px 0;
   }
   
   .cta {
-    color: @white-smoke;
+    color: @ivory;
 
     .center();
     flex-direction: column;
@@ -13,9 +13,8 @@
 
 
   .btn {
-    // border: 1px solid red;
-    color: @white-smoke;
-    background: @rosewood;
+    color: @ivory;
+    background: @peach;
     padding: 5px;
     border-radius: 25px;
     font-size: 2rem;
@@ -24,25 +23,36 @@
     text-decoration: none;
 
     &:hover {
-      background: @white-smoke;
-      color: @rosewood;
+      background: @daffodil;
+      color: @green-tea;
     }
 
   }
 
   .line {
-    border-bottom: 1px solid @white;;
+    border-bottom: 1px solid @peach;
   }
 
   // Tabs
+
+.tabs-all {
+  @media @desktop {
+    display: flex;
+  }
+}
 
   .tabs-links {
     display: flex;
     justify-content: space-around;
     font-size: 2.5rem;
-    background-color: @white-smoke;
+    background-color: @daffodil;
+    color: @peach;
     border-radius: 25px;
     margin: 10px 0;
+
+    @media @desktop {
+      font-size: 3rem;
+    }
   }
   
   .tabs-link {
@@ -50,8 +60,7 @@
   }
 
   .tabs-link-selected {
-    background: @rosewood;
-    color: @white-smoke;
+    color: @green-tea;
     border-radius: 25px;
   }
   
@@ -60,15 +69,23 @@
     border-radius: 25px;
     margin-bottom: 20px;
     padding: 10px;
-    background-color: @white-smoke;
+    background-color: @peach;
+    color: @ivory;
     line-height: 1.5;
     font-size: 1.6rem;
+
+    @media @desktop {
+      margin: 10px;
+      font-size: 2.1rem;
+    }
 
     .tabs-item-title {
       font-size: 2.5rem;
     }
     
   }
+
+
 
   // End Tabs
 
@@ -77,7 +94,7 @@
     border-radius: 25px;
     margin-bottom: 20px;
     padding: 10px;
-    background-color: @white-smoke;
+    background-color: @ivory;
 
     h3 {
       // border: 1px solid red;
@@ -93,7 +110,7 @@
       border-radius: 25px;
       margin-bottom: 20px;
       padding: 10px;
-      background-color: @white-smoke;
+      background-color: @ivory;
     }
   }
 
