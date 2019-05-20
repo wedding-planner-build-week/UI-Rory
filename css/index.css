@@ -137,7 +137,7 @@ table {
 }
 html {
   font-size: 62.5%;
-  background-color: #2660A4;
+  background-color: #bcddb3;
   scroll-behavior: smooth;
 }
 html,
@@ -180,13 +180,13 @@ img {
   align-items: center;
 }
 .header .nav-header {
-  color: #EDF7F6;
+  color: #f8fff4;
 }
 .nav--open {
   display: none;
 }
 .nav-bar {
-  background-color: #690500;
+  background-color: #fecdaa;
   border-radius: 25px;
   text-align: center;
   padding: 10px 0;
@@ -207,20 +207,20 @@ img {
   font-size: 1rem;
 }
 #top-header {
-  color: #EDF7F6;
+  color: #f8fff4;
   text-align: center;
   margin: 10px 0;
 }
 .cta {
-  color: #EDF7F6;
+  color: #f8fff4;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 .btn {
-  color: #EDF7F6;
-  background: #690500;
+  color: #f8fff4;
+  background: #fecdaa;
   padding: 5px;
   border-radius: 25px;
   font-size: 2rem;
@@ -231,30 +231,30 @@ img {
   text-decoration: none;
 }
 .btn:hover {
-  background: #EDF7F6;
-  color: #690500;
+  background: #fafac6;
+  color: #bcddb3;
 }
 .line {
-  border-bottom: 1px solid #FEFFFE;
+  border-bottom: 1px solid #fecdaa;
 }
 .tabs-links {
   display: flex;
   justify-content: space-around;
   font-size: 2.5rem;
-  background-color: #EDF7F6;
+  background-color: #f8fff4;
   border-radius: 25px;
   margin: 10px 0;
 }
 .tabs-link-selected {
-  background: #690500;
-  color: #EDF7F6;
+  background: #fafac6;
+  color: #fecdaa;
   border-radius: 25px;
 }
 .tabs-item {
   border-radius: 25px;
   margin-bottom: 20px;
   padding: 10px;
-  background-color: #EDF7F6;
+  background-color: #f8fff4;
   line-height: 1.5;
   font-size: 1.6rem;
 }
@@ -265,12 +265,12 @@ img {
   border-radius: 25px;
   margin-bottom: 20px;
   padding: 10px;
-  background-color: #EDF7F6;
+  background-color: #f8fff4;
 }
 .quote-carousel .quote {
   border: 1px solid fuchsia;
   border-radius: 25px;
   margin-bottom: 20px;
   padding: 10px;
-  background-color: #EDF7F6;
+  background-color: #f8fff4;
 }
