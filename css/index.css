@@ -140,6 +140,8 @@ html {
   background-color: #bcddb3;
   scroll-behavior: smooth;
 }
+@media (min-width: 550px) {
+}
 html,
 body {
   font-family: 'Permanent Marker', cursive;
@@ -154,15 +156,35 @@ h5 {
 h1 {
   font-size: 4rem;
 }
+@media (min-width: 550px) {
+  h1 {
+    font-size: 4.5rem;
+  }
+}
 h2 {
   font-size: 3rem;
 }
+@media (min-width: 550px) {
+  h2 {
+    font-size: 3.5rem;
+  }
+}
 h3 {
-  font-size: 2.5rem;
+  font-size: 3rem;
+}
+@media (min-width: 550px) {
+  h3 {
+    font-size: 4.5rem;
+  }
 }
 p {
   line-height: 1.5;
   font-size: 1.6rem;
+}
+@media (min-width: 550px) {
+  p {
+    font-size: 2.1rem;
+  }
 }
 img {
   max-width: 100%;
@@ -175,12 +197,22 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+@media (min-width: 550px) {
+  .container {
+    max-width: 800px;
+  }
+}
 .header {
   display: flex;
   align-items: center;
 }
 .header .nav-header {
   color: #f8fff4;
+}
+@media (min-width: 550px) {
+  .header {
+    justify-content: space-between;
+  }
 }
 .nav--open {
   display: none;
@@ -202,6 +234,11 @@ img {
 }
 .footer-content {
   display: flex;
+  justify-content: space-around;
+  background: #fecdaa;
+  color: #f8fff4;
+  padding: 10px;
+  border-radius: 25px;
 }
 .footer-content p {
   font-size: 1rem;
@@ -237,26 +274,37 @@ img {
 .line {
   border-bottom: 1px solid #fecdaa;
 }
+@media (min-width: 550px) {
+  .tabs-all {
+    display: flex;
+  }
+}
 .tabs-links {
   display: flex;
   justify-content: space-around;
   font-size: 2.5rem;
-  background-color: #f8fff4;
+  background-color: #fafac6;
+  color: #fecdaa;
   border-radius: 25px;
   margin: 10px 0;
 }
 .tabs-link-selected {
-  background: #fafac6;
-  color: #fecdaa;
+  color: #bcddb3;
   border-radius: 25px;
 }
 .tabs-item {
   border-radius: 25px;
   margin-bottom: 20px;
   padding: 10px;
-  background-color: #f8fff4;
+  background-color: #fecdaa;
+  color: #f8fff4;
   line-height: 1.5;
   font-size: 1.6rem;
+}
+@media (min-width: 550px) {
+  .tabs-item {
+    margin: 10px;
+  }
 }
 .tabs-item .tabs-item-title {
   font-size: 2.5rem;

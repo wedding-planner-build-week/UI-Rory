@@ -13,7 +13,6 @@
 
 
   .btn {
-    // border: 1px solid red;
     color: @ivory;
     background: @peach;
     padding: 5px;
@@ -36,11 +35,18 @@
 
   // Tabs
 
+.tabs-all {
+  @media @desktop {
+    display: flex;
+  }
+}
+
   .tabs-links {
     display: flex;
     justify-content: space-around;
     font-size: 2.5rem;
-    background-color: @ivory;
+    background-color: @daffodil;
+    color: @peach;
     border-radius: 25px;
     margin: 10px 0;
   }
@@ -50,8 +56,7 @@
   }
 
   .tabs-link-selected {
-    background: @daffodil;
-    color: @peach;
+    color: @green-tea;
     border-radius: 25px;
   }
   
@@ -60,15 +65,22 @@
     border-radius: 25px;
     margin-bottom: 20px;
     padding: 10px;
-    background-color: @ivory;
+    background-color: @peach;
+    color: @ivory;
     line-height: 1.5;
     font-size: 1.6rem;
+
+    @media @desktop {
+      margin: 10px;
+    }
 
     .tabs-item-title {
       font-size: 2.5rem;
     }
     
   }
+
+
 
   // End Tabs
 
