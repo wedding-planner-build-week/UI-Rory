@@ -230,8 +230,36 @@ img {
   margin: 15px;
   text-decoration: none;
 }
+.btn:hover {
+  background: #EDF7F6;
+  color: #690500;
+}
 .line {
   border-bottom: 1px solid #FEFFFE;
+}
+.tabs-links {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.5rem;
+  background-color: #EDF7F6;
+  border-radius: 25px;
+  margin: 10px 0;
+}
+.tabs-link-selected {
+  background: #690500;
+  color: #EDF7F6;
+  border-radius: 25px;
+}
+.tabs-item {
+  border-radius: 25px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #EDF7F6;
+  line-height: 1.5;
+  font-size: 1.6rem;
+}
+.tabs-item .tabs-item-title {
+  font-size: 2.5rem;
 }
 .content-box {
   border-radius: 25px;
