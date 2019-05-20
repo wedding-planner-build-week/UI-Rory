@@ -199,7 +199,7 @@ img {
 }
 @media (min-width: 550px) {
   .container {
-    max-width: 800px;
+    max-width: 900px;
   }
 }
 .header {
@@ -242,6 +242,11 @@ img {
 }
 .footer-content p {
   font-size: 1rem;
+}
+@media (min-width: 550px) {
+  .footer-content p {
+    font-size: 1.5rem;
+  }
 }
 #top-header {
   color: #f8fff4;
@@ -288,6 +293,11 @@ img {
   border-radius: 25px;
   margin: 10px 0;
 }
+@media (min-width: 550px) {
+  .tabs-links {
+    font-size: 3rem;
+  }
+}
 .tabs-link-selected {
   color: #bcddb3;
   border-radius: 25px;
@@ -304,6 +314,7 @@ img {
 @media (min-width: 550px) {
   .tabs-item {
     margin: 10px;
+    font-size: 2.1rem;
   }
 }
 .tabs-item .tabs-item-title {
