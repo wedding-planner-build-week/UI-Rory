@@ -1,30 +1,16 @@
-  #top-header {
-    color: @ivory;
-    text-align: center;
-    margin: 10px 0;
-  }
-  
   .cta {
     color: @ivory;
-
     .center();
     flex-direction: column;
   }
 
-
   .btn {
-    color: @ivory;
-    background: @peach;
-    padding: 5px;
-    border-radius: 25px;
-    font-size: 2rem;
+    .button-color(@button-color-regular, @button-background-regular);
+    .button-style(@button-margin-regular, @button-padding-regular, @button-border-radius-regular, @button-font-size-regular);
     .center();
-    margin: 15px;
-    text-decoration: none;
 
     &:hover {
-      background: @daffodil;
-      color: @green-tea;
+      .button-color(@button-color-hover, @button-background-hover)
     }
 
   }
@@ -65,14 +51,12 @@
   }
   
   .tabs-item {
-    // border: 1px solid red;
+    .content-font(@content-font-size-regular, @content-line-height-regular);
     border-radius: 25px;
     margin-bottom: 20px;
     padding: 10px;
     background-color: @peach;
     color: @ivory;
-    line-height: 1.5;
-    font-size: 1.6rem;
 
     @media @desktop {
       margin: 10px;
@@ -80,7 +64,11 @@
     }
 
     .tabs-item-title {
-      font-size: 2.5rem;
+      font-size: @content-title-font-size-regular;
+    }
+
+    .tabs-item-description {
+      .content-font(@content-font-size-regular, @content-line-height-regular);
     }
     
   }
@@ -95,45 +83,36 @@
     margin-bottom: 20px;
     padding: 10px;
     background-color: @ivory;
-
-    h3 {
-      // border: 1px solid red;
-    }
     
   }
 
   .quote-carousel {
-    // border: 1px solid red;
+
+    @media @desktop {
+      display: block;
+
+    }
+    display: none;;
 
     .quote {
-      border: 1px solid fuchsia;
+      .content-font(@content-font-size-regular, @content-line-height-regular);
+      .content-color(@content-color, @content-background);
       border-radius: 25px;
       margin-bottom: 20px;
       padding: 10px;
-      background-color: @ivory;
     }
-  }
 
-  .footer-content {
-    // border: 1px solid red;
-  }
-
-  #copyright {
-    
-  }
-
-  #app-name {
-
-  }
-
-  #privacy-policy {
 
   }
 
   // Team Page
 
-  // #rotate {
-  //   transform: rotate(90deg);
-  //   margin: 20px;
-  // }
+#top-img-team {
+  width: 500px;
+
+  @media @desktop {
+    width: 900px;
+    height: 400px;
+  }
+}
 

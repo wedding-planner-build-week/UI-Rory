@@ -27,20 +27,12 @@ const navLinks = document.querySelectorAll('.nav-link');
 
 console.log('navLinks', navLinks);
 
-// Using the NavBar reference, add a click handler that calls toggleNav
-
-// hamburger.addEventListener('click', toggleNav);
-
-  // Hamburger
-
-  // Look for .hamburger
-  // var hamburger = document.querySelector(".hamburger");
-  // console.log('hamburger', hamburger);
-
   // Add event listener to hamburger looking for a mouse click
 
   hamburger.addEventListener('click', function() {
       hamburger.classList.toggle('is-active');
       toggleNav();
   });
+
+  
 
