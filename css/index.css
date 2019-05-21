@@ -209,6 +209,9 @@ img {
 @media (min-width: 501px) {
   .header {
     flex-direction: row;
+    position: sticky;
+    top: 0;
+    background: #bcddb3;
   }
 }
 .burger {
