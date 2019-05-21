@@ -40,14 +40,9 @@
       font-size: 3rem;
     }
   }
-  
-  .tabs-link {
-  
-  }
 
   .tabs-link-selected {
     color: @green-tea;
-    border-radius: 25px;
   }
   
   .tabs-item {
@@ -115,4 +110,57 @@
     height: 400px;
   }
 }
+
+.team-link {
+  font-size: @team-links-font-size-regular;
+}
+
+.team-title {
+  font-size: @team-title-font-size-regular;
+  text-decoration: underline;
+}
+
+.team-content {
+  font-size: @team-content-font-size-regular;
+}
+
+.tabs-all-team {
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+
+.team-two {
+  display: flex;
+  flex-direction: column;
+}
+
+.team-img {
+  width: 500px;
+}
+
+
+@media @desktop {
+  .team-img {
+    width: 425px;
+    height: 350px;
+   }
+
+   .team-two {
+     flex-direction: row;
+   }
+   
+   .team-one {
+     display: flex;
+    .center();
+     flex-direction: column;
+   }
+}
+
+
+
+
+
 
