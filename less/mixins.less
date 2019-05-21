@@ -4,20 +4,32 @@
   align-items: center;
 }
 
-
-
-
-.sign-up-button-styles {
-  height: 25px ;
-  font-size: 1.5rem;
-  text-align: center;
-  vertical-align: middle;
-
-}
-
 .button(@button-background-color, @button-text-color, @button-radius, @button-width) {
   background: @button-background-color;
   color: @button-text-color;
   border-radius: @button-radius;
   width: @button-width;
+}
+
+.button-color(@button-color, @button-background) {
+  color: @button-color;
+  background: @button-background;
+}
+
+.button-style(@button-margin, @button-padding, @button-border-radius, @button-font-size) {
+  margin: @button-margin;
+  padding: @button-padding;
+  border-radius: @button-border-radius;
+  font-size: @button-font-size;
+  text-decoration: none;
+}
+
+.content-font(@font-size, @line-height) {
+  font-size: @font-size;
+  line-height: @line-height;
+}
+
+.content-color(@content-color, @content-background) {
+  color: @content-color;
+  background: @content-background;
 }

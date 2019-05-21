@@ -6,6 +6,7 @@
     <title>Wedding Planner App</title>
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link href="hamburgers-master/dist/hamburgers.css" rel="stylesheet">
 
     <script src="js/index.js" async></script>
     <script src="js/dropdown.js" async></script>
@@ -14,7 +15,11 @@
 <body class="container">
         <div class="header">
                 <h1 class="nav-header">Team</h1>
-                <img class="menu-button" src="img/menu.png">
+                <button class="hamburger hamburger--collapse is-active" type="button">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
             </div>
                 <div class="nav-container">
                     <nav class="nav-bar nav--open">
@@ -24,8 +29,7 @@
                         <a class="nav-link" href="https://www.google.com">Login</a>
                     </nav>
                 </div>
-            <img id="top-img" src="img/cake-celebration-delicious-1727415.jpg">
-
+            <img id="top-img-team" src="img/anniversary-beautiful-bloom-931178.jpg">
 
     <!-- TABS COMPONENT -->
     <div class="tabs">
@@ -66,6 +70,14 @@
                 <div class="tabs-item-description">Kanek is the Team Lead for the Wedding Planner app. He has a background in alchemy</div>
             </div>
 </div>
+
+<footer>
+        <div class="footer-content">
+            <p class="copyright">All Content Copyright Wedding Planner App 2019</p>
+            <p id="app-name">Wedding Planner App</p>
+            <p id='privacy-policy'>Privacy Policy</p>
+        </div>
+    </footer>
   
 </body>
 
