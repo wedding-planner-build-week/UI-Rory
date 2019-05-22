@@ -155,7 +155,7 @@ h1 {
 }
 @media (min-width: 501px) {
   h1 {
-    font-size: 4.5rem;
+    font-size: 6rem;
   }
 }
 h2 {
@@ -197,14 +197,13 @@ img {
 }
 @media (min-width: 501px) {
   .container {
-    max-width: 900px;
+    max-width: 1000px;
   }
 }
-.header {
+#header-mockup {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-content: space-around;
 }
 .header .nav-header {
   color: #f8fff4;
@@ -214,7 +213,10 @@ img {
     flex-direction: row;
     position: sticky;
     top: 0;
+    z-index: 1;
     background: #bcddb3;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
   }
 }
 .burger {
@@ -224,16 +226,26 @@ img {
   display: none;
 }
 .nav-bar {
-  background-color: #fecdaa;
+  background-color: #ff9f58;
   border-radius: 25px;
   text-align: center;
   padding: 10px 0;
 }
+@media (min-width: 501px) {
+  .nav-bar {
+    padding: 20px 0;
+  }
+}
 .nav-bar .nav-link {
   color: #FEFFFE;
   text-decoration: none;
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin: 20px 20px;
+}
+@media (min-width: 501px) {
+  .nav-bar .nav-link {
+    font-size: 2.5rem;
+  }
 }
 /*!
  * Hamburgers
@@ -1069,7 +1081,7 @@ img {
 .footer-content {
   display: flex;
   justify-content: space-around;
-  background: #fecdaa;
+  background: #ff9f58;
   color: #f8fff4;
   padding: 10px;
   border-radius: 25px;
@@ -1091,7 +1103,7 @@ img {
 }
 .btn {
   color: #f8fff4;
-  background: #fecdaa;
+  background: #ff9f58;
   margin: 15px;
   padding: 5px;
   border-radius: 25px;
@@ -1106,7 +1118,7 @@ img {
   background: #fafac6;
 }
 .line {
-  border-bottom: 1px solid #fecdaa;
+  border-bottom: 1px solid #ff9f58;
 }
 @media (min-width: 501px) {
   .tabs-all {
@@ -1118,7 +1130,7 @@ img {
   justify-content: space-around;
   font-size: 2.5rem;
   background-color: #fafac6;
-  color: #fecdaa;
+  color: #ff9f58;
   border-radius: 25px;
   margin: 10px 0;
 }
@@ -1128,7 +1140,7 @@ img {
   }
 }
 .tabs-link-selected {
-  color: #bcddb3;
+  color: #fecdaa;
 }
 .tabs-item {
   font-size: 1.6rem;
@@ -1136,13 +1148,12 @@ img {
   border-radius: 25px;
   margin-bottom: 20px;
   padding: 10px;
-  background-color: #fecdaa;
+  background-color: #ff9f58;
   color: #f8fff4;
 }
 @media (min-width: 501px) {
   .tabs-item {
-    margin: 10px;
-    font-size: 2.1rem;
+    margin: 20px;
   }
 }
 .tabs-item .tabs-item-title {
@@ -1170,17 +1181,23 @@ img {
   font-size: 1.6rem;
   line-height: 1.5;
   color: #f8fff4;
-  background: #fecdaa;
+  background: #ff9f58;
   border-radius: 25px;
   margin-bottom: 20px;
   padding: 10px;
+}
+@media (min-width: 501px) {
+  .quote-carousel .quote {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
 }
 #top-img-team {
   width: 500px;
 }
 @media (min-width: 501px) {
   #top-img-team {
-    width: 900px;
+    width: 1000px;
     height: 400px;
   }
 }
