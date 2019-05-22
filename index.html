@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
 <html lang='en'>
-
 <head>
     <meta charset="utf-8">
-    <title>Wedding Planner App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/index.css"/>
     <link href="hamburgers-master/dist/hamburgers.css" rel="stylesheet">
@@ -13,13 +13,14 @@
 
     <script src="js/index.js" async></script>
     <script src="js/dropdown.js" async></script>
+    <title>Wedding Planner App</title>
 </head>
 
 <body class="container">
     <div class="header">
         <h1 class="nav-header">Wedding Planner</h1>
         
-        <button class="hamburger hamburger--collapse is-active" type="button">
+        <button class="hamburger hamburger--collapse" type="button">
             <span class="hamburger-box">
                 <span class="hamburger-inner"></span>
             </span>
@@ -34,6 +35,7 @@
             </nav>
         </div>
     <img id="top-img" src="img/ceremonial-chairs-curtain-1804684.jpg">
+
     <hr class="line">
     <div class="cta">
         <h2>Connect to your dream planner</h2>
@@ -44,13 +46,33 @@
     <hr class="line">
     <img src="img/bouquet-bride-bride-and-groom-752842.jpg">
 
-<!-- CAROUSEL COMPONENT -->
-<!-- 
-<div class="carousel-test">
-    <div>Carousel component 1</div>
-    <div>Carousel component 2</div>
-    <div>Carousel component 3</div>
-</div> -->
+<!-- MODAL -->
+
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Launch demo modal
+      </button> -->
+      
+      <!-- Modal -->
+      <!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div> -->
 
 <!-- TABS COMPONENT -->
 <div class="section">
@@ -64,44 +86,48 @@
         </div>
     </div>
     <hr class="line">
-    <div class="tabs-all">
-        <div class="twos">
-            <div class="tabs-item tabs-item-selected" data-tab="1">
+
+        <div class="row">
+            <div class="col-sm tabs-item tabs-item-selected" data-tab="1">
                 <div class="tabs-item-title">See</div>
                 <div class="tabs-item-description">With Wedding Planner, you get to see all the beautiful work you've created over the years. Your profile is exactly that-yours. Show the world just what makes you a uniquely skilled planner.</div>
             </div>
-            <div class="tabs-item" data-tab="2">
+            <div class="col-sm tabs-item" data-tab="2">
                 <div class="tabs-item-title">Post</div>
                 <div class="tabs-item-description">With Wedding Planner, you don't need to rely on expensive branding agencies. Post your new content and themes whenever you want-even live from the wedding!</div>
                 </div>
             </div>
-            <div class="twos">
-            <div class="tabs-item" data-tab="3">
+            <div class="row">
+            <div class="col-sm tabs-item" data-tab="3">
                 <div class="tabs-item-title">Plan</div>
                 <div class="tabs-item-description">Wedding Planner gives you all the tools you could have ever dreamed of, right at your fingertips. Use our proprietary boards to organize the perfect dream day for your clients, who, really, are your family.</div>
             </div>
-            <div class="tabs-item" data-tab="4">
+            <div class="col-sm tabs-item" data-tab="4">
                 <div class="tabs-item-title">Do</div>
                 <div class="tabs-item-description">Wedding Planner's interactive vendor lists partner with a growing number of service providers. Manage the wedding from A to Z, including external relationships, all from inside one app interface.</div>
             </div>
         </div>
-</div>
 
-    <div class="quote-carousel">
-        <p class="quote">I couldn't believe what Wedding Planner allowed me to do. With just one download and 15 minutes of work, I was able to charge an extra 15% margins on top of my already exhorbitant prices. <br>- Brenda Plannercakes</p>
-        <p class="quote">Wedding Planner truly changed my life. I barely have to even speak to the client anymore, and I still get paid the same! <br>- Bryan Lamesauce</p>
-        <p class="quote">"You miss 100% of the shots you don't take"<br>- Wayne Gretzky <br>- Michael Scott</p>
-    </div>
+        <div class="container">
+            <div class="row quote-carousel">
+                <p class="col-sm quote">I couldn't believe what Wedding Planner allowed me to do. With just one download and 15 minutes of work, I was able to charge an extra 15% margins on top of my already exhorbitant prices. <br>- Brenda Plannercakes</p>
+                <p class="col-sm quote">Wedding Planner truly changed my life. I barely have to even speak to the client anymore, and I still get paid the same! <br>- Bryan Lamesauce</p>
+                <p class="col-sm quote">"You miss 100% of the shots you don't take"<br>- Wayne Gretzky <br>- Michael Scott</p>
+            </div>
+
+        </div>
 
     <footer>
-        <div class="footer-content">
+        <div class="row footer-content">
             <p class="copyright">All Content Copyright Wedding Planner App 2019</p>
             <p id="app-name">Wedding Planner App</p>
             <p id='privacy-policy'>Privacy Policy</p>
         </div>
     </footer>
     
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -16,10 +16,6 @@ console.log('navBar', navBar);
 var hamburger = document.querySelector(".hamburger");
 console.log('hamburger', hamburger);
 
-// const menuImage = document.querySelector('.menu-button');
-
-// console.log('menuImage', menuImage)
-
 
 // Step 2: Create a reference to the '.nav-link' class
 
