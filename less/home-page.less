@@ -25,6 +25,10 @@
   @media @desktop {
     display: flex;
   }
+
+  @media @tablet {
+    display: flex;
+  }
 }
 
   .tabs-links {
@@ -38,6 +42,10 @@
 
     @media @desktop {
       font-size: 3rem;
+    }
+
+    @media @tablet {
+      font-size: 2.7rem;
     }
   }
 
@@ -53,8 +61,17 @@
     background-color: @peach;
     color: @ivory;
 
+
+    @media @tablet {
+      margin: 15px;
+      background: @daffodil;
+      color: @green-tea;
+    }
+
     @media @desktop {
       margin: 20px;
+      background: @peach;
+      color: @ivory;
     }
 
     .tabs-item-title {
@@ -64,8 +81,6 @@
 
     .tabs-item-description {
       .content-font(@content-font-size-regular, @content-line-height-regular);
-
-
     }
     
   }
@@ -73,7 +88,6 @@
   // End Tabs
 
   .content-box {
-    // border: 1px solid red;
     border-radius: 25px;
     margin-bottom: 20px;
     padding: 10px;
@@ -97,8 +111,8 @@
 
       @media @desktop {
         .content-font(@content-font-size-desktop, @content-line-height-regular);
-
       }
+
 
     }
   }
@@ -108,10 +122,18 @@
 #top-img-team {
   width: 500px;
 
+
+  @media @tablet {
+    display: none;
+
+  }
+
   @media @desktop {
     width: 1000px;
     height: 400px;
+    display: block;
   }
+
 }
 
 .team-link {
@@ -161,6 +183,18 @@
     .center();
      flex-direction: column;
    }
+}
+
+.social {
+  color:@daffodil;
+  text-decoration: none;
+
+  &:hover {
+    color:@green-tea;
+    text-decoration: none;
+  }
+
+
 }
 
 
