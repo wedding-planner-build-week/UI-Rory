@@ -134,7 +134,7 @@ html {
   background-color: #bcddb3;
   scroll-behavior: smooth;
 }
-@media (min-width: 701px) {
+@media (min-width: 801px) {
 }
 html,
 body {
@@ -158,7 +158,7 @@ h1 {
     font-size: 5rem;
   }
 }
-@media (min-width: 701px) {
+@media (min-width: 801px) {
   h1 {
     font-size: 6rem;
   }
@@ -166,7 +166,7 @@ h1 {
 h2 {
   font-size: 2.8rem;
 }
-@media (min-width: 701px) {
+@media (min-width: 801px) {
   h2 {
     font-size: 3.3rem;
   }
@@ -179,7 +179,7 @@ h2 {
 h3 {
   font-size: 3rem;
 }
-@media (min-width: 701px) {
+@media (min-width: 801px) {
   h3 {
     font-size: 4.5rem;
   }
@@ -193,7 +193,7 @@ p {
   line-height: 1.5;
   font-size: 1.6rem;
 }
-@media (min-width: 701px) {
+@media (min-width: 801px) {
   p {
     font-size: 2.1rem;
   }
@@ -215,7 +215,7 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-@media (min-width: 701px) {
+@media (min-width: 801px) {
   .container {
     max-width: 1000px;
   }
@@ -233,7 +233,7 @@ img {
 .header .nav-header {
   color: #f8fff4;
 }
-@media (min-width: 701px) {
+@media (min-width: 801px) {
   .header {
     flex-direction: row;
     position: sticky;
@@ -256,7 +256,7 @@ img {
   text-align: center;
   padding: 10px 0;
 }
-@media (min-width: 701px) {
+@media (min-width: 801px) {
   .nav-bar {
     padding: 20px 0;
   }
@@ -267,7 +267,7 @@ img {
   font-size: 2rem;
   margin: 20px 20px;
 }
-@media (min-width: 701px) {
+@media (min-width: 801px) {
   .nav-bar .nav-link {
     font-size: 2.5rem;
   }
@@ -1114,7 +1114,7 @@ img {
 .footer-content p {
   font-size: 1rem;
 }
-@media (min-width: 701px) {
+@media (min-width: 801px) {
   .footer-content p {
     font-size: 1.5rem;
   }
@@ -1145,7 +1145,7 @@ img {
 .line {
   border-bottom: 1px solid #ff9f58;
 }
-@media (min-width: 701px) {
+@media (min-width: 801px) {
   .tabs-all {
     display: flex;
   }
@@ -1164,7 +1164,7 @@ img {
   border-radius: 25px;
   margin: 10px 0;
 }
-@media (min-width: 701px) {
+@media (min-width: 801px) {
   .tabs-links {
     font-size: 3rem;
   }
@@ -1193,7 +1193,7 @@ img {
     color: #bcddb3;
   }
 }
-@media (min-width: 701px) {
+@media (min-width: 801px) {
   .tabs-item {
     margin: 20px;
     background: #ff9f58;
@@ -1216,7 +1216,7 @@ img {
 .quote-carousel {
   display: none;
 }
-@media (min-width: 701px) {
+@media (min-width: 801px) {
   .quote-carousel {
     display: block;
   }
@@ -1230,7 +1230,7 @@ img {
   margin-bottom: 20px;
   padding: 10px;
 }
-@media (min-width: 701px) {
+@media (min-width: 801px) {
   .quote-carousel .quote {
     font-size: 2rem;
     line-height: 1.5;
@@ -1244,7 +1244,7 @@ img {
     display: none;
   }
 }
-@media (min-width: 701px) {
+@media (min-width: 801px) {
   #top-img-team {
     width: 1000px;
     height: 400px;
@@ -1272,7 +1272,7 @@ img {
 .team-img {
   width: 500px;
 }
-@media (min-width: 701px) {
+@media (min-width: 801px) {
   .team-img {
     width: 425px;
     height: 350px;
