@@ -19,14 +19,13 @@
     border-bottom: 1px solid @peach;
   }
 
-  // Tabs
+// Tabs
 
 .tabs-all {
-  @media @desktop {
+    @media @tablet {
     display: flex;
   }
-
-  @media @tablet {
+  @media @desktop {
     display: flex;
   }
 }
@@ -34,18 +33,21 @@
   .tabs-links {
     display: flex;
     justify-content: space-around;
-    font-size: 2.5rem;
+    font-size: @nav-link-font-size-regular;
     background-color: @daffodil;
     color: @peach;
     border-radius: 25px;
     margin: 10px 0;
 
     @media @desktop {
-      font-size: 3rem;
+      font-size: @nav-link-font-size-desktop;
+    }
+    @media @tablet {
+      font-size: @nav-link-font-size-tablet;
     }
 
-    @media @tablet {
-      font-size: 2.7rem;
+    @media @desktop {
+      font-size: @nav-link-font-size-desktop;
     }
   }
 
@@ -192,6 +194,10 @@
   &:hover {
     color:@green-tea;
     text-decoration: none;
+  }
+
+  @media @tablet {
+    color: @peach;
   }
 
 

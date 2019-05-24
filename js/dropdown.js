@@ -4,7 +4,6 @@ const toggleNav = () => {
   console.log('hamburger click')
 }
 
-
 // Step 1: Create a reference to the '.nav-bar' class
 
 const navBar = document.querySelector('.nav-bar');
