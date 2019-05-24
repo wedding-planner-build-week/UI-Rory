@@ -264,12 +264,12 @@ img {
 .nav-bar .nav-link {
   color: #FEFFFE;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 3rem;
   margin: 20px 20px;
 }
 @media (min-width: 801px) {
   .nav-bar .nav-link {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
 }
 /*!
@@ -1145,12 +1145,12 @@ img {
 .line {
   border-bottom: 1px solid #ff9f58;
 }
-@media (min-width: 801px) {
+@media (min-width: 501px) {
   .tabs-all {
     display: flex;
   }
 }
-@media (min-width: 501px) {
+@media (min-width: 801px) {
   .tabs-all {
     display: flex;
   }
@@ -1158,7 +1158,7 @@ img {
 .tabs-links {
   display: flex;
   justify-content: space-around;
-  font-size: 2.5rem;
+  font-size: 3rem;
   background-color: #fafac6;
   color: #ff9f58;
   border-radius: 25px;
@@ -1166,12 +1166,17 @@ img {
 }
 @media (min-width: 801px) {
   .tabs-links {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 }
 @media (min-width: 501px) {
   .tabs-links {
-    font-size: 2.7rem;
+    font-size: 3.2rem;
+  }
+}
+@media (min-width: 801px) {
+  .tabs-links {
+    font-size: 3.5rem;
   }
 }
 .tabs-link-selected {
@@ -1294,4 +1299,9 @@ img {
 .social:hover {
   color: #bcddb3;
   text-decoration: none;
+}
+@media (min-width: 501px) {
+  .social {
+    color: #ff9f58;
+  }
 }
